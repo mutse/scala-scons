@@ -3,9 +3,11 @@ Scala with Scons
 
 How to compile a Scala project with scons.
 
-# Install
+# Dependencies
 
-    sudo apt install scala scons
+In Ubuntu, please use the below command to install compile dependencies:
+
+    sudo apt install scala scons openjdk-8-jdk-headless openjdk-8-jdk
 
 # How to compile
 
