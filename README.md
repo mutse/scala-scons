@@ -7,17 +7,21 @@ How to compile a Scala project with scons.
 
 In Ubuntu, please use the below command to install compile dependencies:
 
-    sudo apt install scala scons openjdk-8-jdk-headless openjdk-8-jdk
+    $ sudo apt install scala scons openjdk-8-jdk-headless openjdk-8-jdk
 
 # How to compile
 
 Generate the package with the command:
 
-    scons
+    $ scons
 
 and run it with
 
-    scala -cp classes HelloWorld
+    $ scala -cp classes HelloWorld
+
+or
+
+    $ scala hello-scala.jar
 
 # Reference
 

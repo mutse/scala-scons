@@ -1,3 +1,4 @@
 Manifest-Version: 1.0
 Created-By: Mutse Young
-Main-Class: Main
+Main-Class: HelloWorld
+Class-Path: hello-scala.jar
